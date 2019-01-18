@@ -10,7 +10,10 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class ConvertUrlResponse {
 
-    @JsonProperty("url")
+    @JsonProperty("shortUrl")
     private String shortUrl;
+
+    @JsonProperty("longUrl")
+    private String longUrl;
 
 }
