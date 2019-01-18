@@ -2,7 +2,6 @@ package com.example.controller;
 
 import com.example.model.ConvertUrlRequest;
 import com.example.model.ConvertUrlResponse;
-import com.fasterxml.jackson.databind.JsonNode;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
